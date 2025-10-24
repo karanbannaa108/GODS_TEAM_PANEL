@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>GODS TEAM PANEL</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="page">
+    <header class="header"><h1>GODS TEAM PANEL</h1></header>
+
+    <section id="payment" class="card qr-card">
+      <img src="/phonepe_qr.png" alt="PhonePe QR" class="qr">
+      <div class="merchant">KARAN SINGH SHEKHAWAT</div>
+      <div class="note">📱 Scan & Pay to Continue</div>
+      <div class="actions"><button id="paidBtn" class="btn">I PAID</button></div>
+      <div id="waiting" class="hint hidden">Waiting for server verification...</div>
+    </section>
+
+    <section id="login" class="card hidden">
+      <h2>Login</h2>
+      <p class="sub">Payment verified — press below to access panel.</p>
+      <button id="accessBtn" class="btn">Access Panel</button>
+    </section>
+
+    <section id="panel" class="card hidden">
+      <h2>Access Granted</h2>
+      <p>Welcome to the panel.</p>
+      <p>WhatsApp: <a href="https://wa.me/917878622242" target="_blank">+91 78786 22242</a></p>
+      <button id="logoutBtn" class="btn secondary">Logout</button>
+    </section>
+
+    <footer class="foot">© 2025 GODS TEAM</footer>
+  </main>
+<script src="/app.js"></script>
+</body>
+</html>
